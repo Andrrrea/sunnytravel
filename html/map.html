@@ -105,25 +105,132 @@
                   Buchen
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
+                <div
+                  class="modal fade"
+                  id="myModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered"
+                    role="document"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">
+                          Mannheim &#8594; Dresden
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <!--Modal content-->
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div>
+                              <img id="title-image" src="../img/Dresden.jpg" />
                             </div>
-                            <div class="modal-body">
-                              ...
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
-                              <button type="button" class="btn login_btn">Auswählen</button>
+                          </div>
+                          <div class="row justify-content-md-center">
+                            <div>
+                              <table class="table">
+                                <tbody>
+                                  <tr>
+                                    <td>07.07.2019</td>
+                                    <td>08.07.2019</td>
+                                    <td>09.07.2019</td>
+                                    <td>10.07.2019</td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <img
+                                        id="weather-image"
+                                        src="../img/Sonne.png"
+                                      />
+                                    </td>
+                                    <td>
+                                      <img
+                                        id="weather-image"
+                                        src="../img/Sonne.png"
+                                      />
+                                    </td>
+                                    <td>
+                                      <img
+                                        id="weather-image"
+                                        src="../img/Sonne.png"
+                                      />
+                                    </td>
+                                    <td>
+                                      <img
+                                        id="weather-image"
+                                        src="../img/Sonne.png"
+                                      />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <button
+                                        type="button"
+                                        id="myBtn"
+                                        class="btn login_btn"
+                                        data-target="#myModal"
+                                        data-toggle="modal"
+                                      >
+                                        39 €
+                                      </button>
+                                    </td>
+                                    <td>
+                                      <button
+                                        type="button"
+                                        id="myBtn"
+                                        class="btn login_btn"
+                                        data-target="#myModal"
+                                        data-toggle="modal"
+                                      >
+                                        35 €
+                                      </button>
+                                    </td>
+                                    <td>
+                                      <button
+                                        type="button"
+                                        id="myBtn"
+                                        class="btn login_btn"
+                                        data-target="#myModal"
+                                        data-toggle="modal"
+                                      >
+                                        29 €
+                                      </button>
+                                    </td>
+                                    <td>
+                                      <button
+                                        type="button"
+                                        id="myBtn"
+                                        class="btn login_btn"
+                                        data-target="#myModal"
+                                        data-toggle="modal"
+                                      >
+                                        29 €
+                                      </button>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
                             </div>
                           </div>
                         </div>
+                        <!--End Modal content-->
                       </div>
+                    </div>
+                  </div>
+                </div>
                 <!--End Modal-->
               </div>
             </div>
@@ -138,14 +245,12 @@
       </div>
     </div>
 
-    
-
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!--JavaScript-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <!--Google Maps API-->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMBJJh6ExL_fW0pArMaismgeqdh1OBGIY&callback=initMap"
@@ -253,6 +358,5 @@
         });
       }
     </script>
-
   </body>
 </html>

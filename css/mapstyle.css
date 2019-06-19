@@ -25,6 +25,9 @@ body {
   opacity: 0.5;
 }
 
+#weather-image{
+    width:70px;
+}
 /*Input image*/
 #title-image {
   width: 100%;
