@@ -37,7 +37,7 @@ body {
 
 /*Input fields*/
 #card-input {
-  height: auto;
+  height: 100px;
   margin-top: -50px;
   margin-bottom: 30px;
 }
