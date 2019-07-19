@@ -64,7 +64,12 @@ function initMap() {
                     '</div>';
                 //Getting names of all the images available
                 var images = ["Dresden.jpg", "Koenigssee.jpg", "Nordsee.jpg", "Sandsteingebirge.jpg", "Schloss.jpg"];
-                var imageOfCity = images[i%images.length]; //hier richtiges Stadtbild finden
+                var cityPics = ["berlin.jpg", "dresden.jpg", "hamburg.jpg", "heidelberg.jpg", "kiel.jpg", "leipzig.jpg", "potsdam.jpg", "regensburg.jpg", "stralsund.jpg", "stuttgart.jpg"];
+                if (cityPics.includes(city.toLowerCase()+".jpg") ){
+                    imageOfCity = "Cities/"+city.toLowerCase()+".jpg";
+                }else {
+                    var imageOfCity = images[i%images.length];
+                }
                 //Replace the above with proper image selection
                 var modalInnerHTML = '<tr> <td>'+ formattedDate +' </td> </tr> ' +
                                      '<tr> <td> <img class="weather-image" src="'+weatherIcon+'"/> <p> ' + Math.round(temperature) + ' Grad </p> </td> </tr>'+
