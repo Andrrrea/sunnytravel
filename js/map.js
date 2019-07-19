@@ -57,7 +57,8 @@ function initMap() {
                     '</div>' +
                     '<h1 id="firstHeading" class="firstHeading"></h1>' +
                     '<div id="bodyContent">' +
-                        '<p>' + city + '</p>' +
+                        '<p class="popup_info">' + city + '</p>' +
+                    '<p>' + price + '</p>' +
                         '<img src="'+ weatherIcon +'"></img>' +
                     '</div>' +
                     '</div>';
