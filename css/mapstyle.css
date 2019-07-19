@@ -11,6 +11,10 @@ body {
   width: 100%;
   align-content: center;
 }
+/*Image on top*/
+#title-image-top{
+  width: 100%;
+}
 
 /*Modal*/
 .fade.in {
