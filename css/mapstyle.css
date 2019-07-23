@@ -105,3 +105,24 @@ body {
   margin:0px;
   font-weight: bold;
 }
+
+/*Autocomplete List*/
+#city-inputautocomplete-list{
+  max-height: 220px;
+  overflow: auto;
+  position: relative;
+  z-index: 99;
+  top: 4%;
+  border: 1px solid #d4d4d4;
+}
+
+#city-inputautocomplete-list > div{
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+#city-inputautocomplete-list > div:hover{
+  background-color:#e9e9e9;
+}
+

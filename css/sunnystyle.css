@@ -136,4 +136,5 @@ input:focus{
 #myInputautocomplete-list {
     max-height: 220px;
     overflow: auto;
+    border: none;
 }
